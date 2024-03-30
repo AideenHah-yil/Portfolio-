@@ -5,20 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my portfolio website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@200&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+    />
 </head>
 <body>
     <header>
-        <h1>My Portfolio</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about">My Bio</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-        </ul>
-    </nav>
-    <main>
+            <div class="container">
+              <nav class="flex items-centre justify-between">
+                <div class="left flex justfiy-right">
+                  <div class="logo">
+                    <img src="./images/logo.png" width="50px" alt="logo" />
+                  </div>
+                  <div>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Blog</a>
+                    <a href="#">More</a>
+                  </div>
+                </div>
+                <div class="right">
+                  <button class="btn btn-primary">Contact</button>
+                </div>
+              </nav>
+            </div>
+          </header>
+
+
+    <div class="hero flex items-centre justify-between">
+        <div class="left flex-1 justify-center">
+            <img src="./images/main-img.png" alt="Profile" />
+        </div>
+        <div class="right flex-1">
+            <h6>Ruth Wangare</h6>
+            <h1>
+                I'm a Software Engineer<br />
+            </h1>
+            <p>
+                I'm a software engineer with a passion for building
+                beautiful and functional websites. I'm also passionate about
+                learning new technologies.
+            </p>
+            <div>
+                <button class="btn btn-secondary">DOWNLOAD RESUME</button>
+                
+            </div>
+
+        </div>
+
+    </div>      
+   
+   
+    <!-- <main>
         <section id="about">
             <h2>About Me</h2>
             <p>Greetings and welcome to my portfolio. <br>
@@ -55,7 +103,7 @@
                 <li>Databases</li>
             </ul>
 
-        </section>
+        </section> -->
         <section id="contact">
             <h2>Get in touch with me.</h2>
             <p>Email: <a href="mailto:rwangare124@gmail.com">rwangare124@gmail.com</a></p>
