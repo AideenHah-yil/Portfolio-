@@ -7,7 +7,9 @@
     --secondary: rgb(0, 59, 50);
     --bgLight: rgb(190, 181, 181);
 }
-
+html {
+    scroll-behavior: smooth;
+}
 * {
     padding: 0;
     margin: 0;
