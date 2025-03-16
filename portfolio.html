@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-T1F12zDo4nxCZYF90EgK+Xzdo4UxwJ5lf2ucphRu4dPr1RUE5tvX+hvVbG9KDzndXb18F6zNMMuHnI9BglG0tA==" crossorigin="anonymous" />
+    
 
 </head>
 <body>
@@ -86,7 +87,63 @@
     </div>
    </section>
 
-<section id="services" class="services">
+   <section id="services" class="services">
+    <div class="container">
+        <h1 class="services-head">Skills</h1>
+        <p>All your digital needs... covered.</p>
+        <div class="card-grid">
+            <!-- Graphic Design Card -->
+            <div class="card" onclick="openModal('graphicModal')">
+                <img src="./images/profile.jpg" alt="graphic design"/>
+                <h2>Graphic Design</h2>
+                <p>Graphic design is my canvas for storytelling...</p>
+            </div>
+
+            <!-- Web Development Card -->
+            <div class="card" onclick="openModal('webModal')">
+                <img src="./images/web.png" alt="web development"/>
+                <h2>Web Development</h2>
+                <p>Web development is my digital playground...</p>
+            </div>
+
+            <!-- Mobile App Development Card -->
+            <div class="card" onclick="openModal('appModal')">
+                <img src="./images/app.png" alt="mobile app development"/>
+                <h2>Mobile App Development</h2>
+                <p>Mobile app development is my digital playground...</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modals -->
+<div id="graphicModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('graphicModal')">&times;</span>
+        <h2>Graphic Design</h2>
+        <p>More details about your graphic design skills... (e.g., Adobe Photoshop, Illustrator, branding, UI/UX)</p>
+    </div>
+</div>
+
+<div id="webModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('webModal')">&times;</span>
+        <h2>Web Development</h2>
+        <p>More details about your web development skills... (e.g., HTML, CSS, JavaScript, React, backend development)</p>
+    </div>
+</div>
+
+<div id="appModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('appModal')">&times;</span>
+        <h2>Mobile App Development</h2>
+        <p>More details about your mobile app development skills... (e.g., Flutter, React Native, Android/iOS development)</p>
+    </div>
+</div>
+
+
+
+<!-- <section id="services" class="services">
     <div class="container">
         <h1 class="services-head">Services</h1>
         <p>All your digital needs... covered.</p>
@@ -114,7 +171,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section id="blog" >
    <div class="container">
@@ -135,11 +192,14 @@
 
         <section class="contact">
             <h2>Get in touch with me.</h2>
-            <p>Email: <a href="mailto:rwangare124@gmail.com">wangarenjorogeruth@gmail.com</a></p>
+            <p>Email: <a href="mailto:wangarenjorogeruth@gmail.com">wangarenjorogeruth@gmail.com</a></p>
             </section>
    
     <footer>
         <p>Copyright &copy; 2025,Ruth</p>
+
     </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
