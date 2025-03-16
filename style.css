@@ -51,7 +51,9 @@ body {
 }
 .hero .right {
     color: var(--white);
-    margin-top: -7rem;
+    /* margin-top: -7rem; */
+    display: flex;
+    align-items: center;
 }
 .hero .right h6 {
     font-size: 1.6rem;
