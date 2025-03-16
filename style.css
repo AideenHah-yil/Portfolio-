@@ -62,11 +62,10 @@ img {
     color: var(--white);
     /* margin-top: -7rem; */
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     max-width: 600px;
-    gap: 1rem;
+    gap: 1;
 }
 .hero .right h6 {
     font-size: 1.6rem;
@@ -261,7 +260,24 @@ footer p {
     position: relative;
     margin: auto;
 }
-
+.modal-gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.modal-image {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.modal-video {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
 .close {
     position: absolute;
     top: 10px;
