@@ -42,13 +42,20 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
+img {
+    max-width: 400px;
+    height: auto;
+}
 .hero {
-    padding-top: 2rem;
-    padding-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90vw;
+    margin: auto;
 }
 .hero .left img {
-    /* width: 400px;  */
-    max-width: 100%;
+    max-width: 400px;
     height: auto;
 }
 .hero .right {
