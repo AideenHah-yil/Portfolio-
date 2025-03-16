@@ -1,3 +1,14 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const downloadButton = document.getElementById("downloadResume");
+
+    if (downloadButton) {
+        downloadButton.addEventListener("click", function () {
+            alert("Your resume is downloading...");
+        });
+    }
+});
+
+
 function openModal(modalId) {
     document.getElementById(modalId).style.display = "flex";
 }
